@@ -7,7 +7,6 @@
 
 import AVFoundation
 import SpriteKit
-import GameplayKit
 
 enum SequenceType: Int {
     case one
@@ -44,6 +43,7 @@ class GameScene: SKScene {
     var score: Int = 0 {
         didSet {
             gameScore.text = "Score: \(score)"
+            UserDefaults.standard.set(score, forKey: "score")
         }
     }
     
@@ -175,7 +175,6 @@ class GameScene: SKScene {
                     actionEniemies.remove(at: index!)
                     
                     score += 1
-                    UserDefaults.standard.set(score, forKey: "score")
                     
                     // Death Sound
                     run(SKAction.playSoundFileNamed("whack.caf", waitForCompletion: false))
@@ -395,6 +394,7 @@ extension GameScene {
         gameEnded = true
         physicsWorld.speed = 0
         isUserInteractionEnabled = false
+        UserDefaults.standard.set(score, forKey: "score")
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
             let scene = GameOverScene(size: CGSize(width: self.view!.bounds.width - 20, height: self.view!.bounds.height))

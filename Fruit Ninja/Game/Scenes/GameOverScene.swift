@@ -43,7 +43,7 @@ class GameOverScene: SKScene {
             return
         }
         
-        let background = SKSpriteNode(imageNamed: "gameOverBG")
+        let background = SKSpriteNode(imageNamed: "gameOverBackground")
         background.position = CGPoint(x: viewFrame.width / 2, y: viewFrame.height / 2)
         background.blendMode = .replace
         background.zPosition = -1

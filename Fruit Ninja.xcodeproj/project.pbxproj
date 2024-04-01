@@ -25,7 +25,7 @@
 		FE1BB8652BB44A8D008FBDC3 /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB8612BB44A7E008FBDC3 /* swoosh3.caf */; };
 		FE284B4D2BAAD81200159BFD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE284B4C2BAAD81200159BFD /* GameScene.swift */; };
 		FE5A27A82BBACF3000272884 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5A27A72BBACF3000272884 /* spark.png */; };
-		FE5D8BFD2BB555F700791CA3 /* gameOverBG.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8BFC2BB555F700791CA3 /* gameOverBG.png */; };
+		FE5D8BFD2BB555F700791CA3 /* gameOverBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8BFC2BB555F700791CA3 /* gameOverBackground.png */; };
 		FE5D8BFF2BB55D6F00791CA3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8BFE2BB55D6F00791CA3 /* GameScene.sks */; };
 		FE5D8C012BB55D7F00791CA3 /* GameOvereScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8C002BB55D7F00791CA3 /* GameOvereScene.sks */; };
 		FE5D8C0B2BB5BD7200791CA3 /* sliceBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8C0A2BB5BD7200791CA3 /* sliceBackground.png */; };
@@ -51,7 +51,7 @@
 		FE1BB8622BB44A7E008FBDC3 /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
 		FE284B4C2BAAD81200159BFD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FE5A27A72BBACF3000272884 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		FE5D8BFC2BB555F700791CA3 /* gameOverBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOverBG.png; sourceTree = "<group>"; };
+		FE5D8BFC2BB555F700791CA3 /* gameOverBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOverBackground.png; sourceTree = "<group>"; };
 		FE5D8BFE2BB55D6F00791CA3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		FE5D8C002BB55D7F00791CA3 /* GameOvereScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOvereScene.sks; sourceTree = "<group>"; };
 		FE5D8C0A2BB5BD7200791CA3 /* sliceBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliceBackground.png; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		FE5D8C0C2BB5C63900791CA3 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
-				FE5D8BFC2BB555F700791CA3 /* gameOverBG.png */,
+				FE5D8BFC2BB555F700791CA3 /* gameOverBackground.png */,
 				FEE1C4342BB2989F00D7E4A8 /* gameover.caf */,
 				FE1BB8522BB42A69008FBDC3 /* wrong.caf */,
 				FE5D8C0A2BB5BD7200791CA3 /* sliceBackground.png */,
@@ -232,7 +232,7 @@
 				FE1BB85A2BB43D66008FBDC3 /* gameover.caf in Resources */,
 				FE1BB8652BB44A8D008FBDC3 /* swoosh3.caf in Resources */,
 				FE1BB8542BB42A7E008FBDC3 /* sliceLifeGone.png in Resources */,
-				FE5D8BFD2BB555F700791CA3 /* gameOverBG.png in Resources */,
+				FE5D8BFD2BB555F700791CA3 /* gameOverBackground.png in Resources */,
 				FEE1C4362BB29D6800D7E4A8 /* sliceHitEnemy.sks in Resources */,
 				FE1BB85F2BB447B7008FBDC3 /* whack.caf in Resources */,
 				FE5D8BFF2BB55D6F00791CA3 /* GameScene.sks in Resources */,
