@@ -50,7 +50,7 @@ class GameScene: SKScene {
     // enemies
     var actionEniemies = [SKSpriteNode]()
     
-    let EnemyVelocityScalar = 40
+    let enemyVelocityScalar = 40
     
     var sprite: SKSpriteNode = SKSpriteNode()
     var startPoint: CGPoint = CGPoint.zero
@@ -78,8 +78,7 @@ class GameScene: SKScene {
             for enemy in actionEniemies {
                 if enemy.position.y < -140 {
                     enemy.removeAllActions()
-                    
-                    if enemy.name == "strawberry" || enemy.name == "mango" || enemy.name == "watermelon" || enemy.name == "pineapple" || enemy.name == "apple" || enemy.name == "banana" {
+                    if let enemyName = enemy.name, fruits.contains(enemyName) {
                         enemy.name = ""
                         enemy.removeFromParent()
                         subtractLife()
@@ -91,7 +90,6 @@ class GameScene: SKScene {
                 }
             }
         }
-        
         else {
             if !nextSequencedQueued {
                 DispatchQueue.main.asyncAfter(deadline: .now() + spawnTime, execute: { [unowned self] in
@@ -154,7 +152,7 @@ class GameScene: SKScene {
             if !isSwooshSFXPlaying { playSwooshSFX() }
             
             for node in nodes {
-                if node.name == "strawberry" || node.name == "mango" || node.name == "watermelon" || node.name == "banana" || node.name == "apple" || node.name == "pineapple" {
+                if let nodeName = node.name, fruits.contains(nodeName) {
                     
                     // particles
                     let emitter = SKEmitterNode(fileNamed: "sliceHitEnemy")
@@ -341,7 +339,7 @@ extension GameScene {
         
         // physics
         enemy.physicsBody = SKPhysicsBody(circleOfRadius: 64)
-        enemy.physicsBody?.velocity = CGVector(dx: randomLinearVelocity * EnemyVelocityScalar, dy: randomYVelocity * EnemyVelocityScalar)
+        enemy.physicsBody?.velocity = CGVector(dx: randomLinearVelocity * enemyVelocityScalar, dy: randomYVelocity * enemyVelocityScalar)
         enemy.physicsBody?.angularVelocity = randomAngularVelocity
         enemy.physicsBody?.collisionBitMask = 0
     }

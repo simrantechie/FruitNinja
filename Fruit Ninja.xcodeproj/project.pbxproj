@@ -18,13 +18,13 @@
 		FE1BB8582BB43D58008FBDC3 /* wrong.caf in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB8522BB42A69008FBDC3 /* wrong.caf */; };
 		FE1BB8592BB43D5E008FBDC3 /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB8512BB42938008FBDC3 /* explosion.caf */; };
 		FE1BB85A2BB43D66008FBDC3 /* gameover.caf in Resources */ = {isa = PBXBuildFile; fileRef = FEE1C4342BB2989F00D7E4A8 /* gameover.caf */; };
-		FE1BB85C2BB43DA3008FBDC3 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB85B2BB43DA3008FBDC3 /* spark.png */; };
 		FE1BB85E2BB44642008FBDC3 /* sliceLife.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB85D2BB44642008FBDC3 /* sliceLife.png */; };
 		FE1BB85F2BB447B7008FBDC3 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = FEE1C4372BB29D8300D7E4A8 /* whack.caf */; };
 		FE1BB8632BB44A88008FBDC3 /* swoosh1.caf in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB8602BB44A7E008FBDC3 /* swoosh1.caf */; };
 		FE1BB8642BB44A8B008FBDC3 /* swoosh2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB8622BB44A7E008FBDC3 /* swoosh2.caf */; };
 		FE1BB8652BB44A8D008FBDC3 /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB8612BB44A7E008FBDC3 /* swoosh3.caf */; };
 		FE284B4D2BAAD81200159BFD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE284B4C2BAAD81200159BFD /* GameScene.swift */; };
+		FE5A27A82BBACF3000272884 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5A27A72BBACF3000272884 /* spark.png */; };
 		FE5D8BFD2BB555F700791CA3 /* gameOverBG.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8BFC2BB555F700791CA3 /* gameOverBG.png */; };
 		FE5D8BFF2BB55D6F00791CA3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8BFE2BB55D6F00791CA3 /* GameScene.sks */; };
 		FE5D8C012BB55D7F00791CA3 /* GameOvereScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE5D8C002BB55D7F00791CA3 /* GameOvereScene.sks */; };
@@ -45,12 +45,12 @@
 		FE1BB8512BB42938008FBDC3 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
 		FE1BB8522BB42A69008FBDC3 /* wrong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.caf; sourceTree = "<group>"; };
 		FE1BB8532BB42A7E008FBDC3 /* sliceLifeGone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliceLifeGone.png; sourceTree = "<group>"; };
-		FE1BB85B2BB43DA3008FBDC3 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		FE1BB85D2BB44642008FBDC3 /* sliceLife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliceLife.png; sourceTree = "<group>"; };
 		FE1BB8602BB44A7E008FBDC3 /* swoosh1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.caf; sourceTree = "<group>"; };
 		FE1BB8612BB44A7E008FBDC3 /* swoosh3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.caf; sourceTree = "<group>"; };
 		FE1BB8622BB44A7E008FBDC3 /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
 		FE284B4C2BAAD81200159BFD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FE5A27A72BBACF3000272884 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		FE5D8BFC2BB555F700791CA3 /* gameOverBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOverBG.png; sourceTree = "<group>"; };
 		FE5D8BFE2BB55D6F00791CA3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		FE5D8C002BB55D7F00791CA3 /* GameOvereScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOvereScene.sks; sourceTree = "<group>"; };
@@ -103,11 +103,11 @@
 			children = (
 				FE5D8BFC2BB555F700791CA3 /* gameOverBG.png */,
 				FEE1C4342BB2989F00D7E4A8 /* gameover.caf */,
-				FE1BB85B2BB43DA3008FBDC3 /* spark.png */,
 				FE1BB8522BB42A69008FBDC3 /* wrong.caf */,
 				FE5D8C0A2BB5BD7200791CA3 /* sliceBackground.png */,
 				FE1BB8602BB44A7E008FBDC3 /* swoosh1.caf */,
 				FE1BB8622BB44A7E008FBDC3 /* swoosh2.caf */,
+				FE5A27A72BBACF3000272884 /* spark.png */,
 				FE1BB8612BB44A7E008FBDC3 /* swoosh3.caf */,
 				FE1BB85D2BB44642008FBDC3 /* sliceLife.png */,
 				FE1BB8532BB42A7E008FBDC3 /* sliceLifeGone.png */,
@@ -225,9 +225,9 @@
 				FE0AE0062BAA0DED00F8A805 /* LaunchScreen.storyboard in Resources */,
 				FE0AE0032BAA0DED00F8A805 /* Assets.xcassets in Resources */,
 				FE5D8C0B2BB5BD7200791CA3 /* sliceBackground.png in Resources */,
+				FE5A27A82BBACF3000272884 /* spark.png in Resources */,
 				FE0AE0012BAA0DEC00F8A805 /* Main.storyboard in Resources */,
 				FE1BB8592BB43D5E008FBDC3 /* explosion.caf in Resources */,
-				FE1BB85C2BB43DA3008FBDC3 /* spark.png in Resources */,
 				FE1BB8632BB44A88008FBDC3 /* swoosh1.caf in Resources */,
 				FE1BB85A2BB43D66008FBDC3 /* gameover.caf in Resources */,
 				FE1BB8652BB44A8D008FBDC3 /* swoosh3.caf in Resources */,
@@ -412,9 +412,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SampleApp.Fruit-Ninja";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -438,9 +441,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SampleApp.Fruit-Ninja";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
