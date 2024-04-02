@@ -5,7 +5,6 @@
 //  Created by Simranjeet Kaur on 20/03/24.
 //
 
-import AVFoundation
 import SpriteKit
 
 enum SequenceType: Int {
